@@ -5,7 +5,7 @@ class World {
 
 };
 
-enum VoxelType {
+enum class VoxelType {
 	testingVoxel
 };
 
