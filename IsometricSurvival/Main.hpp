@@ -1,8 +1,10 @@
 #pragma once
 #include "Math.hpp"
+#include<iostream>  
+#include<vector>
 
 class World {
-
+	public: std::vector<Voxel> voxels;
 };
 
 enum class VoxelType {
@@ -22,4 +24,14 @@ class Voxel {
 
 World generateTestWorld() {
 	World progress;
+
+	for (int x = 0; x < 5; x++)
+	{
+		for (int y = 0; y < 5; y++)
+		{
+
+		}
+	}
+
+	return progress;
 }
