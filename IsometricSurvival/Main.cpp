@@ -11,12 +11,11 @@ int main(/*int argc, char* argv[]*/)
 	sf::RenderWindow window(sf::VideoMode(640,480), "Isometrica 2022");
 
 	// Loading assets
-	sf::Texture voxelTestTexture;
-	if (!voxelTestTexture.loadFromFile("image.png"))
-	{
-		printf("VoxelTest.png failed to load");
-	}
+	sf::Texture voxelTestTexture; // VOXEL TEST, DEV ONLY
+	voxelTestTexture.loadFromFile("VoxelTest.png");
+	voxelTestTexture.setSmooth(true);
 
+	// game loop
 	while (window.isOpen()) {
 		sf::Event event;
 		while (window.pollEvent(event)) {

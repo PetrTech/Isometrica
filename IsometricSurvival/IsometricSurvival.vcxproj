@@ -149,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.hpp" />
+    <ClInclude Include="Math.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="VoxelTest.png">
